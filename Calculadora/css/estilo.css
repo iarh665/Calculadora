@@ -1,0 +1,72 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-90deg, rgb(93, 93, 224), #eff0b9);
+    
+}
+
+header {
+    background-color:#23698f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+#calculadora {
+    text-align: center;
+    border: 6px solid #333;
+    border-radius: 16px;
+    padding: 30px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 2px 1px rgba(9, 3, 94, 0.2);
+}
+
+#display {
+    height: 2em;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    border: 3px solid #333;
+    border-radius: 8px;
+    background-color: beige;
+    overflow-x:hidden;
+    text-overflow:clip;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #d8d8bd;
+}
+
+footer {
+    background-color: #23698f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
